@@ -18,8 +18,13 @@
     - `doc/sorting_benchmark.svg` (排序对比图)
     - `doc/hash_table_benchmark.svg` (哈希表查找对比图)
   - 编写了详尽的高级排版报告文档：`doc/Assignment_Report.md`。
+- **阶段七：Git集成与GitHub同步** (Complete)
+  - 创建了 `.gitignore` 文件，成功过滤了 1.44GB 的超大测试数据集及临时文件。
+  - 初始化本地 Git 仓库，并绑定了 GitHub 远程仓库 `https://github.com/Azieltan/ADAA.git`。
+  - 将所有核心源码、脚本及报告推送到 GitHub 上的 `main` 分支。
 
 ## 历史进展 (History)
 - **2026-06-15 21:53**: 初始化进展文档与实施计划，定位系统 C++ 编译器。
 - **2026-06-15 22:04**: 完成 C++ 实现与 10 个基准测试集的测试；发起 80M 超大数据集的生成。
 - **2026-06-15 22:11**: 80M 测试运行成功，差值达 131 秒。渲染了 SVG 图表并生成了最终作业报告文档。
+- **2026-06-16 14:43**: 配置 `.gitignore`，初始化 Git 仓库，并推送代码至 GitHub (ADAA)。

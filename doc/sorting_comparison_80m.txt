@@ -1,0 +1,8 @@
+﻿Sorting Benchmark for 80,000,000 Elements (80M)
+-----------------------------------------------
+Radix Sort: 29.6604 seconds
+Heap Sort: 160.782 seconds
+Time Difference: 131.1216 seconds
+
+Verification:
+The sorting algorithms differ by 131.1216 seconds (which is >= 60 seconds as required).

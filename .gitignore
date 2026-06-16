@@ -1,0 +1,22 @@
+# Ignore all CSV files (massive datasets) by default
+*.csv
+
+# Do not ignore CSV files in the doc/ directory
+!doc/*.csv
+
+# Ignore compiled binaries and build artifacts
+bin/
+*.exe
+*.o
+*.obj
+*.out
+
+# Ignore temporary search and sort step text files
+dataset_*_step_*.txt
+hash_table_search_*.txt
+
+# OS and IDE configuration files
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/

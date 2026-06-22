@@ -26,4 +26,4 @@ For the 80M benchmark, place `dataset_80000000.csv` in the repository root, comp
 .\scripts\run_sorting_comparison_80m.ps1
 ```
 
-Generated large datasets and output files are intentionally ignored by Git. Submit them through the required OneDrive folder link if the zip file exceeds the assignment size limit.
+Generated large datasets and output files are intentionally ignored by Git. Per Mr Shaari's clarification, you only need to submit exactly one input CSV and one output file per algorithm as proof in the final submission zip. Other datasets can be excluded to resolve storage limits.

@@ -26,16 +26,17 @@ Generated against `CCP6214_Assigment.pdf` on 2026-06-16.
 - [ ] Export the final report as DOCX. The PDF states zero mark may apply if the group fails to submit documentation in DOCX format.
 - [ ] Add the marksheet checklist, table of contents with page numbers/links, and question sections in the final DOCX format.
 - [ ] Add hardware specification screenshots for each member.
-- [ ] Add command prompt running-time screenshots for every input size and algorithm run.
-- [ ] Add a Microsoft OneDrive folder link for big input/output files.
-- [ ] Include required files in the final zip:
-  - DOCX report
-  - `.cpp` source files
-  - required `.csv` input files or OneDrive folder link
-  - required `.txt` output files or OneDrive folder link
+- [ ] Add command prompt running-time screenshots for every input size and algorithm run (all 10 sizes must still be run by members, as per instructions).
+- [ ] Add a Microsoft OneDrive folder link for big input/output files (Optional now, since data storage requirements are reduced).
+- [ ] Include required files in the final zip (updated per Mr Shaari's clarification):
+  - DOCX report.
+  - `.cpp` source files.
+  - Exactly ONE sample `.csv` dataset file (e.g., `dataset_1000.csv`) as proof.
+  - Exactly ONE corresponding output file for each algorithm as proof (e.g., `radix_sorted_dataset_1000.csv`, `heap_sort_dataset_1000.csv`, `hash_table_search_dataset_1000.txt`).
 - [ ] Name the final zip using the required format, for example `T13L_G04.zip`.
 
 ## Compliance Notes
 
 - The repository cannot truthfully complete personal/group fields, hardware screenshots, running-time screenshots, or OneDrive links without the real evidence from each member.
-- Generated datasets and large outputs are ignored by `.gitignore` to keep the repository small. This is acceptable only if the final DOCX provides the OneDrive folder link required by the assignment.
+- **Clarification Update**: As confirmed by Mr Shaari, only one input dataset and one output file per algorithm are required as proof of correctness in the submission zip to resolve data storage limitations. However, all 10 datasets must still be run by members to fill out the timing tables and charts in the report.
+- Generated datasets and large outputs are ignored by `.gitignore` to keep the repository small.

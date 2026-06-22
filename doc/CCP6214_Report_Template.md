@@ -8,7 +8,7 @@
 **Group ID:** T13L_G04  
 **Group Leader Name:** [Insert group leader name]  
 **Submission Deadline:** 22 June 2026, 11:59 PM  
-**OneDrive Big Files Folder:** [Insert one Microsoft OneDrive folder link for large input/output files]
+**OneDrive Big Files Folder:** [Optional: Insert OneDrive link if you choose to upload all 10 datasets, though only one input/output is required for proof]
 
 ---
 
@@ -81,7 +81,7 @@ Use the slots below to place screenshots, terminal captures, and file excerpts d
 | Hash output excerpts | Q4, under the evidence checklist | Visible excerpts from the generated `.txt` output files |
 | Hardware screenshots | Q6, in the hardware table | One screenshot per member showing CPU and RAM details |
 | Runtime screenshots | Q7, below the timing tables | Terminal screenshots for every dataset size and algorithm run |
-| OneDrive link | Cover page and Appendix A | Link to large input/output files if they are not inside the zip |
+| OneDrive link (Optional) | Cover page and Appendix A | Link to large input/output files if they are not inside the zip |
 
 For each screenshot, add a short caption directly underneath it that states the program name, dataset size, and what the screenshot proves.
 
@@ -562,17 +562,17 @@ Knuth, D. E. (1998). *The art of computer programming: Sorting and searching* (2
 
 ---
 
-## Appendix A: Submission Package Checklist
+## Appendix A: Submission Package Checklist (Clarified by Mr Shaari)
 
-- [ ] `T13L_G04.docx` or report filename required by tutor.
-- [ ] `src/*.cpp` source code files.
-- [ ] Required `.csv` input files or OneDrive link for large files.
-- [ ] Required `.txt` output files or OneDrive link for large files.
-- [ ] Runtime screenshots.
-- [ ] Hardware screenshots.
+- [ ] `T13L_G04.docx` (final report in Word format).
+- [ ] `src/*.cpp` (source code files).
+- [ ] Exactly ONE sample `.csv` input dataset file (e.g., `dataset_1000.csv`) as proof.
+- [ ] Exactly ONE corresponding output file for each algorithm as proof (e.g., `radix_sorted_dataset_1000.csv`, `heap_sort_dataset_1000.csv`, `hash_table_search_dataset_1000.txt`).
+- [ ] Runtime screenshots (all 10 sizes must still be run and screenshots placed in the report, but the actual files are omitted from the zip).
+- [ ] Hardware screenshots (one per group member).
 - [ ] Final zip named `T13L_G04.zip`.
 
-Place the completed DOCX and evidence files in the final submission package, or provide the OneDrive link in the cover page and Appendix A if large files are excluded from the zip.
+Place the completed DOCX and evidence files in the final submission package. The OneDrive link is now optional since the required files easily fit within the submission size limit.
 
 ---
 

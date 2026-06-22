@@ -1,3 +1,21 @@
+#// *********************************************************
+// Program: radix_sort.cpp
+// Course: CCP6214 Algorithm Design and Analysis
+// Lecture Class: TC5L
+// Tutorial Class: T20L
+// Trimester: 2610
+// Member_1: ID | VINCENT LOCK CHUN KIT | VINCENT.LOCK.CHUN1@STUDENT.MMU.EDU.MY | 0182771488
+// Member_2: ID | AZIEL TAN ZHENG CHUAN | AZIEL.TAN.ZHENG1.STUDENT.MMU.EDU.MY | PHONE
+// Member_3: ID | SEE WING KIT | SEE.WING.KIT1.STUDENT.MMU.EDU.MY | PHONE
+// Member_4: ID | SOO KIAN RONG | SOO.KIAN.RONG1.STUDENT.MMU.EDU.MY | PHONE
+// *********************************************************
+// Task Distribution
+// VINCENT LOCK CHUN KIT: Dataset generator, AVL tree implementation, benchmark orchestration, evidence collection
+// AZIEL TAN ZHENG CHUAN: Radix sort implementation and charts, report writing (sorting sections)
+// SEE WING KIT: Heap sort implementation and step outputs, script portability fixes, testing and verification
+// SOO KIAN RONG: Hash table (linked-list and AVL) implementation, search benchmarks, APA citations
+// *********************************************************
+
 #include "common.h"
 #include <chrono>
 

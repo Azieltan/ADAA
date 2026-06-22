@@ -71,8 +71,8 @@ We analyze a hash table of size $M$ where $M$ is chosen as the next prime number
 
 ### 3.1 Experimental Hardware Specifications
 - **Operating System**: Windows 11 (64-bit)
-- **Processor**: Intel Core / AMD Ryzen CPU
-- **Memory**: [E.g., 16 GB DDR4/DDR5]
+- **Processor**: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+- **Memory**: 8.00 GB
 - **Compiler**: GCC 15.2.0 (MinGW64 via GNU Octave) compiled with `-O3 -std=c++17`
 
 ### 3.2 Benchmark Running Times

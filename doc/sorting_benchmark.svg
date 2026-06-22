@@ -1,11 +1,11 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" style="background-color: #121212; font-family: 'Outfit', 'Inter', sans-serif;">
   <!-- Grid Lines and Y-Axis ticks -->  <line x1="80" y1="440" x2="760" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="65" y="445" fill="#aaaaaa" font-size="12" text-anchor="end">0.0s</text>  <line x1="80" y1="362" x2="760" y2="362" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="367" fill="#aaaaaa" font-size="12" text-anchor="end">1.8s</text>  <line x1="80" y1="284" x2="760" y2="284" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="289" fill="#aaaaaa" font-size="12" text-anchor="end">3.6s</text>  <line x1="80" y1="206" x2="760" y2="206" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="211" fill="#aaaaaa" font-size="12" text-anchor="end">5.4s</text>  <line x1="80" y1="128" x2="760" y2="128" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="133" fill="#aaaaaa" font-size="12" text-anchor="end">7.2s</text>  <line x1="80" y1="50" x2="760" y2="50" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="55" fill="#aaaaaa" font-size="12" text-anchor="end">9.0s</text>  <line x1="80" y1="50" x2="80" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="367" fill="#aaaaaa" font-size="12" text-anchor="end">1.6s</text>  <line x1="80" y1="284" x2="760" y2="284" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="289" fill="#aaaaaa" font-size="12" text-anchor="end">3.2s</text>  <line x1="80" y1="206" x2="760" y2="206" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="211" fill="#aaaaaa" font-size="12" text-anchor="end">4.8s</text>  <line x1="80" y1="128" x2="760" y2="128" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="133" fill="#aaaaaa" font-size="12" text-anchor="end">6.4s</text>  <line x1="80" y1="50" x2="760" y2="50" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="55" fill="#aaaaaa" font-size="12" text-anchor="end">8.0s</text>  <line x1="80" y1="50" x2="80" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="80" y="460" fill="#aaaaaa" font-size="12" text-anchor="middle">0</text>  <line x1="216" y1="50" x2="216" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="216" y="460" fill="#aaaaaa" font-size="12" text-anchor="middle">2M</text>  <line x1="352" y1="50" x2="352" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="352" y="460" fill="#aaaaaa" font-size="12" text-anchor="middle">4M</text>  <line x1="488" y1="50" x2="488" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
@@ -17,19 +17,19 @@
   <text x="420" y="490" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">Dataset Size (N)</text>
   <text x="25" y="245" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90 25 245)">Running Time (seconds)</text>
   <text x="400" y="30" fill="#ffffff" font-size="18" font-weight="bold" text-anchor="middle">Comparative Sorting Performance: Radix Sort vs Heap Sort</text>  <!-- Radix Sort Line (Blue) -->
-  <polyline points="80.068,439.99142 80.34,439.93487 80.68,439.910776666667 83.4,438.87563 86.8,438.113786666667 114,428.558483333333 148,423.19737 216,407.738246666667 420,357.004533333333 760,294.006966666667" fill="none" stroke="#4285F4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="80.068,439.98947 80.34,439.958075 80.68,439.8483875 83.4,439.26158375 86.8,438.28317125 114,431.17210625 148,423.06152 216,411.43991 420,354.5241875 760,248.1243875" fill="none" stroke="#4285F4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
   <!-- Heap Sort Line (Red) -->
-  <polyline points="80.068,439.994583333333 80.34,439.942583333333 80.68,439.886206666667 83.4,439.115176666667 86.8,438.63331 114,427.598303333333 148,412.727906666667 216,382.1916 420,269.703466666667 760,75.4089333333334" fill="none" stroke="#EA4335" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />  <circle cx="80.068" cy="439.99142" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="80.068" cy="439.994583333333" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="80.34" cy="439.93487" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="80.34" cy="439.942583333333" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="80.68" cy="439.910776666667" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="80.68" cy="439.886206666667" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="83.4" cy="438.87563" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="83.4" cy="439.115176666667" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="86.8" cy="438.113786666667" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="86.8" cy="438.63331" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="114" cy="428.558483333333" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="114" cy="427.598303333333" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="148" cy="423.19737" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="148" cy="412.727906666667" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="216" cy="407.738246666667" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="216" cy="382.1916" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="420" cy="357.004533333333" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="420" cy="269.703466666667" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="760" cy="294.006966666667" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
-  <circle cx="760" cy="75.4089333333334" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <!-- Legend -->
+  <polyline points="80.068,439.9934675 80.34,439.95783125 80.68,439.85453 83.4,439.38384875 86.8,438.2727875 114,429.3302825 148,419.75319875 216,389.378 420,287.9702 760,55.225025" fill="none" stroke="#EA4335" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />  <circle cx="80.068" cy="439.98947" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="80.068" cy="439.9934675" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="80.34" cy="439.958075" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="80.34" cy="439.95783125" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="80.68" cy="439.8483875" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="80.68" cy="439.85453" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="83.4" cy="439.26158375" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="83.4" cy="439.38384875" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="86.8" cy="438.28317125" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="86.8" cy="438.2727875" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="114" cy="431.17210625" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="114" cy="429.3302825" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="148" cy="423.06152" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="148" cy="419.75319875" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="216" cy="411.43991" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="216" cy="389.378" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="420" cy="354.5241875" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="420" cy="287.9702" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <circle cx="760" cy="248.1243875" r="4" fill="#4285F4" stroke="#ffffff" stroke-width="1" />
+  <circle cx="760" cy="55.225025" r="4" fill="#EA4335" stroke="#ffffff" stroke-width="1" />  <!-- Legend -->
   <rect x="600" y="60" width="150" height="60" rx="5" fill="#1e1e1e" stroke="#333333" stroke-width="1" />
   <line x1="615" y1="80" x2="635" y2="80" stroke="#4285F4" stroke-width="3" />
   <circle cx="625" cy="80" r="3" fill="#4285F4" />

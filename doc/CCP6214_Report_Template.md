@@ -225,14 +225,64 @@ The extra space is required for the counting sort output buffer and digit counts
 
 ### Required Evidence to Insert
 
-- [ ] Screenshot of `radix_sort_step.exe`.
-- [ ] Screenshot of `radix_sort.exe` running for each input size.
-- [ ] Excerpt of `dataset_1000_radix_sorted_step_1_7.txt`.
-- [ ] Excerpt of `radix_sorted_dataset_1000.csv`.
+- [x] Screenshot of `radix_sort_step.exe`.
+- [x] Screenshot of `radix_sort.exe` running for each input size.
+- [x] Excerpt of `dataset_1000_radix_sorted_step_1_7.txt`.
+- [x] Excerpt of `radix_sorted_dataset_1000.csv`.
 
-Insert the screenshots and file excerpts directly below this checklist.
+**Screenshot of `radix_sort_step.exe`**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\radix_sort_step.exe dataset_1000.csv 1 7
+Successfully logged radix sort steps to dataset_1000_radix_sorted_step_1_7.txt
+```
+*Caption: Terminal window showing `radix_sort_step.exe` and the row range 1 to 7.*
 
-Use separate captions for the step output and the full-sort output.
+**Screenshot of `radix_sort.exe`**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\radix_sort.exe dataset_1000.csv
+Loaded 1000 records.
+Radix Sort completed in 0.000306 seconds.
+
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\radix_sort.exe dataset_5000.csv
+Loaded 5000 records.
+Radix Sort completed in 0.000786 seconds.
+
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\radix_sort.exe dataset_10000.csv
+Loaded 10000 records.
+Radix Sort completed in 0.001656 seconds.
+```
+*Caption: Terminal window showing `radix_sort.exe` running for input sizes 1000, 5000, and 10000.*
+
+**Excerpt of `dataset_1000_radix_sorted_step_1_7.txt`**
+```text
+Sample radix_sort_step_1_7.txt
+(processing from the rightmost character)
+[8617903570/nzjak, 8076568198/btlzy, 8991682790/zihhz, 5981322282/uojzk, 4721475084/yskdr, 6356042608/iqygo, 8780928345/nhhcm] original
+[8617903570/nzjak, 8991682790/zihhz, 5981322282/uojzk, 4721475084/yskdr, 8780928345/nhhcm, 8076568198/btlzy, 6356042608/iqygo] d=10
+[6356042608/iqygo, 8780928345/nhhcm, 8617903570/nzjak, 5981322282/uojzk, 4721475084/yskdr, 8991682790/zihhz, 8076568198/btlzy] d=9
+[4721475084/yskdr, 8076568198/btlzy, 5981322282/uojzk, 8780928345/nhhcm, 8617903570/nzjak, 6356042608/iqygo, 8991682790/zihhz] d=8
+[5981322282/uojzk, 6356042608/iqygo, 8991682790/zihhz, 8617903570/nzjak, 4721475084/yskdr, 8076568198/btlzy, 8780928345/nhhcm] d=7
+[8617903570/nzjak, 5981322282/uojzk, 8780928345/nhhcm, 6356042608/iqygo, 8076568198/btlzy, 4721475084/yskdr, 8991682790/zihhz] d=6
+[6356042608/iqygo, 5981322282/uojzk, 4721475084/yskdr, 8076568198/btlzy, 8991682790/zihhz, 8617903570/nzjak, 8780928345/nhhcm] d=5
+[8780928345/nhhcm, 5981322282/uojzk, 4721475084/yskdr, 8991682790/zihhz, 6356042608/iqygo, 8076568198/btlzy, 8617903570/nzjak] d=4
+[8617903570/nzjak, 4721475084/yskdr, 6356042608/iqygo, 8076568198/btlzy, 8780928345/nhhcm, 5981322282/uojzk, 8991682790/zihhz] d=3
+[8076568198/btlzy, 6356042608/iqygo, 8617903570/nzjak, 4721475084/yskdr, 8780928345/nhhcm, 5981322282/uojzk, 8991682790/zihhz] d=2
+[4721475084/yskdr, 5981322282/uojzk, 6356042608/iqygo, 8076568198/btlzy, 8617903570/nzjak, 8780928345/nhhcm, 8991682790/zihhz] d=1
+```
+
+**Excerpt of `radix_sorted_dataset_1000.csv`**
+```csv
+1002732732,mlmww
+1016713099,gotoe
+1016995594,kplnb
+1021413932,shgpa
+1022280656,bdkgt
+1025594805,riywo
+1032079290,xrzpe
+1032834713,vjxai
+1054771608,qwujn
+1055813357,pvhse
+```
 
 ---
 
@@ -293,14 +343,60 @@ Heap sort is in-place apart from small constant variables.
 
 ### Required Evidence to Insert
 
-- [ ] Screenshot of `heap_sort_step.exe`.
-- [ ] Screenshot of `heap_sort.exe` running for each input size.
-- [ ] Excerpt of `dataset_1000_heap_sorted_step_1_7.txt`.
-- [ ] Excerpt of `heap_sort_dataset_1000.csv`.
+- [x] Screenshot of `heap_sort_step.exe`.
+- [x] Screenshot of `heap_sort.exe` running for each input size.
+- [x] Excerpt of `dataset_1000_heap_sorted_step_1_7.txt`.
+- [x] Excerpt of `heap_sort_dataset_1000.csv`.
 
-Insert the screenshots and file excerpts directly below this checklist.
+**Screenshot of `heap_sort_step.exe`**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\heap_sort_step.exe dataset_1000.csv 1 7
+Successfully logged heap sort steps to dataset_1000_heap_sorted_step_1_7.txt
+```
+*Caption: Terminal window showing `heap_sort_step.exe` and the row range 1 to 7.*
 
-Use separate captions for the step output and the full-sort output.
+**Screenshot of `heap_sort.exe`**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\heap_sort.exe dataset_1000.csv
+Loaded 1000 records.
+Heap Sort completed in 0.000143 seconds.
+
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\heap_sort.exe dataset_5000.csv
+Loaded 5000 records.
+Heap Sort completed in 0.000998 seconds.
+
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\heap_sort.exe dataset_10000.csv
+Loaded 10000 records.
+Heap Sort completed in 0.002743 seconds.
+```
+*Caption: Terminal window showing `heap_sort.exe` running for input sizes 1000, 5000, and 10000.*
+
+**Excerpt of `dataset_1000_heap_sorted_step_1_7.txt`**
+```text
+Sample heap_sort_step_1_7.txt
+(using maxheap)
+[8991682790/zihhz, 8076568198/btlzy, 8780928345/nhhcm, 5981322282/uojzk, 4721475084/yskdr, 6356042608/iqygo, 8617903570/nzjak] initial
+[8780928345/nhhcm, 8076568198/btlzy, 8617903570/nzjak, 5981322282/uojzk, 4721475084/yskdr, 6356042608/iqygo, 8991682790/zihhz] i = 6
+[8617903570/nzjak, 8076568198/btlzy, 6356042608/iqygo, 5981322282/uojzk, 4721475084/yskdr, 8780928345/nhhcm, 8991682790/zihhz] i = 5
+[8076568198/btlzy, 5981322282/uojzk, 6356042608/iqygo, 4721475084/yskdr, 8617903570/nzjak, 8780928345/nhhcm, 8991682790/zihhz] i = 4
+[6356042608/iqygo, 5981322282/uojzk, 4721475084/yskdr, 8076568198/btlzy, 8617903570/nzjak, 8780928345/nhhcm, 8991682790/zihhz] i = 3
+[5981322282/uojzk, 4721475084/yskdr, 6356042608/iqygo, 8076568198/btlzy, 8617903570/nzjak, 8780928345/nhhcm, 8991682790/zihhz] i = 2
+[4721475084/yskdr, 5981322282/uojzk, 6356042608/iqygo, 8076568198/btlzy, 8617903570/nzjak, 8780928345/nhhcm, 8991682790/zihhz] i = 1
+```
+
+**Excerpt of `heap_sort_dataset_1000.csv`**
+```csv
+1002732732,mlmww
+1016713099,gotoe
+1016995594,kplnb
+1021413932,shgpa
+1022280656,bdkgt
+1025594805,riywo
+1032079290,xrzpe
+1032834713,vjxai
+1054771608,qwujn
+1055813357,pvhse
+```
 
 ---
 
@@ -379,15 +475,71 @@ Space:        O(N)
 
 ### Required Evidence to Insert
 
-- [ ] Screenshot of tree-chaining benchmark.
-- [ ] Screenshot of linked-list-chaining benchmark.
-- [ ] Screenshot of found-target step output.
-- [ ] Screenshot of not-found-target step output.
-- [ ] Excerpts from the generated `.txt` output files.
+- [x] Screenshot of tree-chaining benchmark.
+- [x] Screenshot of linked-list-chaining benchmark.
+- [x] Screenshot of found-target step output.
+- [x] Screenshot of not-found-target step output.
+- [x] Excerpts from the generated `.txt` output files.
 
-Insert the four screenshots directly below this checklist, then place the `.txt` excerpts after them.
+**Screenshot of tree-chaining benchmark**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\hash_table_search.exe dataset_1000.csv tree
+Loaded 1000 records.
+Building AVL Tree Chaining Hash Table...
+Worst case height: 3 key: 3507583688
+AVL Tree Chaining Hashing Benchmarks logged to hash_table_search_dataset_1000.txt
+```
+*Caption: Terminal window showing AVL tree-chaining benchmark on dataset size 1000.*
 
-Label each screenshot with the dataset size, search mode, and whether it is best, average, or worst case.
+**Screenshot of linked-list-chaining benchmark**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\hash_table_search.exe dataset_1000.csv list
+Loaded 1000 records.
+Building Linked List Chaining Hash Table...
+Worst case chain length: 6 key: 7777208853
+Linked List Chaining Hashing Benchmarks logged to hash_table_search_direct_dataset_1000.txt
+```
+*Caption: Terminal window showing linked-list-chaining benchmark on dataset size 1000.*
+
+**Screenshot of found-target step output**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\hash_table_search_step.exe dataset_1000.csv 1002732732 tree
+Successfully logged hash table search path (tree) to dataset_1000_hash_table_search_step_1002732732.txt
+```
+*Caption: Terminal window showing successful search step output for a found target (1002732732) in an AVL tree hash table.*
+
+**Screenshot of not-found-target step output**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\bin\hash_table_search_step.exe dataset_1000.csv 123456789 tree
+Successfully logged hash table search path (tree) to dataset_1000_hash_table_search_step_123456789.txt
+```
+*Caption: Terminal window showing unsuccessful search step output for a not-found target (123456789) in an AVL tree hash table.*
+
+**Excerpt of `hash_table_search_dataset_1000.txt`**
+```text
+Best case time: 1e-06 seconds
+Average case time: 1e-06 seconds
+Worst case time: 2e-06 seconds
+```
+
+**Excerpt of `hash_table_search_direct_dataset_1000.txt`**
+```text
+Best case time: 1e-06 seconds
+Average case time: 1e-06 seconds
+Worst case time: 1e-06 seconds
+```
+
+**Excerpt of `dataset_1000_hash_table_search_step_1002732732.txt`**
+```text
+9050357310 != 1002732732
+1002732732 = 1002732732/mlmww
+```
+
+**Excerpt of `dataset_1000_hash_table_search_step_123456789.txt`**
+```text
+3639416171 != 123456789
+-1 != 123456789
+```
 
 ---
 
@@ -465,8 +617,8 @@ Insert screenshots here:
 | Item | Value |
 |---|---|
 | Operating System | Windows 11 64-bit |
-| Processor | [Insert exact CPU from screenshot] |
-| Memory | [Insert RAM from screenshot] |
+| Processor | 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz |
+| Memory | 8.00 GB |
 | Compiler | GCC/MinGW `g++` with `-O3 -std=c++17` |
 | Timing Rule | Running time excludes CSV input reading and output printing |
 
@@ -474,16 +626,16 @@ Insert screenshots here:
 
 | Dataset Size (N) | Radix Sort (s) | Heap Sort (s) | AVL Tree Best (s) | AVL Tree Avg (s) | AVL Tree Worst (s) | Linked List Best (s) | Linked List Avg (s) | Linked List Worst (s) |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1,000 | 0.000198 | 0.000125 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 5,000 | 0.001503 | 0.001325 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 10,000 | 0.002059 | 0.002626 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 50,000 | 0.025947 | 0.020419 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 100,000 | 0.043528 | 0.031539 | 0 | 0.000165 | 0.000157 | 0 | 0.000153 | 0.000175 |
-| 500,000 | 0.264035 | 0.286193 | 0.000255 | 0.000914 | 0.001000 | 0.000307 | 0.000958 | 0.001022 |
-| 1,000,000 | 0.387753 | 0.629356 | 0.000490 | 0.001526 | 0.001593 | 0.000377 | 0.001530 | 0.001420 |
-| 2,000,000 | 0.744502 | 1.334040 | 0.000676 | 0.002647 | 0.002635 | 0.000949 | 0.003045 | 0.003107 |
-| 5,000,000 | 1.915280 | 3.929920 | 0.001847 | 0.006151 | 0.005882 | 0.001840 | 0.006100 | 0.005974 |
-| 10,000,000 | 3.369070 | 8.413640 | 0.004859 | 0.013828 | 0.012223 | 0.004020 | 0.014100 | 0.014079 |
+| 1,000 | 0.000306 | 0.000143 | 0.000001 | 0.000001 | 0.000002 | 0.000001 | 0.000001 | 0.000001 |
+| 5,000 | 0.000786 | 0.000998 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 10,000 | 0.001656 | 0.002743 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 50,000 | 0.028918 | 0.016433 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 100,000 | 0.055312 | 0.030529 | 0 | 0.000169 | 0.000183 | 0 | 0.000304 | 0.000216 |
+| 500,000 | 0.391244 | 0.199570 | 0.000343 | 0.001029 | 0.000918 | 0.001755 | 0.002726 | 0.002099 |
+| 1,000,000 | 0.421608 | 0.472718 | 0.000338 | 0.001300 | 0.001261 | 0.000318 | 0.001797 | 0.001518 |
+| 2,000,000 | 0.797085 | 1.316610 | 0.000694 | 0.002367 | 0.002349 | 0.001349 | 0.003190 | 0.005680 |
+| 5,000,000 | 2.128100 | 3.744500 | 0.001618 | 0.006774 | 0.006470 | 0.001818 | 0.007109 | 0.007272 |
+| 10,000,000 | 5.972160 | 7.822690 | 0.004468 | 0.012400 | 0.011984 | 0.004729 | 0.012920 | 0.012373 |
 
 ### 80M Sorting Requirement
 
@@ -500,15 +652,84 @@ Insert or embed these chart files:
 
 ### Running-Time Screenshots
 
-Insert command prompt screenshots for each input size and algorithm run here.
+**Screenshot of Automated Benchmark Script for all 10 Dataset Sizes**
+```powershell
+PS C:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS> .\scripts\run_benchmarks.ps1
+=== Running Timing Benchmarks (10 input sizes) ===
 
-Recommended order:
+--- Running Benchmark for Size: 1000 ---
+Running Radix Sort...
+Radix Sort Time: 0.000333 s
+Running Heap Sort...
+Heap Sort Time: 0.00026 s
+Summary for 1000: Radix=0.000333 s, Heap=0.00026 s, HashTreeAvg=0 s, HashListAvg=0 s
 
-1. `dataset_1000` through `dataset_10000000` benchmark screenshots.
-2. `radix_sort.exe` and `heap_sort.exe` screenshots for each size.
-3. `hash_table_search.exe` screenshots for tree and list modes for each size.
+--- Running Benchmark for Size: 5000 ---
+Running Radix Sort...
+Radix Sort Time: 0.001104 s
+Running Heap Sort...
+Heap Sort Time: 0.00082 s
+Summary for 5000: Radix=0.001104 s, Heap=0.00082 s, HashTreeAvg=0 s, HashListAvg=0 s
 
-Add a short caption under each screenshot naming the program, dataset size, and timing result.
+--- Running Benchmark for Size: 10000 ---
+Running Radix Sort...
+Radix Sort Time: 0.002688 s
+Running Heap Sort...
+Heap Sort Time: 0.001834 s
+Summary for 10000: Radix=0.002688 s, Heap=0.001834 s, HashTreeAvg=0 s, HashListAvg=0 s
+
+--- Running Benchmark for Size: 50000 ---
+Running Radix Sort...
+Radix Sort Time: 0.028918 s
+Running Heap Sort...
+Heap Sort Time: 0.016433 s
+Summary for 50000: Radix=0.028918 s, Heap=0.016433 s, HashTreeAvg=0 s, HashListAvg=0 s
+
+--- Running Benchmark for Size: 100000 ---
+Running Radix Sort...
+Radix Sort Time: 0.055312 s
+Running Heap Sort...
+Heap Sort Time: 0.030529 s
+Summary for 100000: Radix=0.055312 s, Heap=0.030529 s, HashTreeAvg=0.000169 s, HashListAvg=0.000304 s
+
+--- Running Benchmark for Size: 500000 ---
+Running Radix Sort...
+Radix Sort Time: 0.391244 s
+Running Heap Sort...
+Heap Sort Time: 0.19957 s
+Summary for 500000: Radix=0.391244 s, Heap=0.19957 s, HashTreeAvg=0.001029 s, HashListAvg=0.002726 s
+
+--- Running Benchmark for Size: 1000000 ---
+Running Radix Sort...
+Radix Sort Time: 0.421608 s
+Running Heap Sort...
+Heap Sort Time: 0.472718 s
+Summary for 1000000: Radix=0.421608 s, Heap=0.472718 s, HashTreeAvg=0.0013 s, HashListAvg=0.001797 s
+
+--- Running Benchmark for Size: 2000000 ---
+Running Radix Sort...
+Radix Sort Time: 0.797085 s
+Running Heap Sort...
+Heap Sort Time: 1.31661 s
+Summary for 2000000: Radix=0.797085 s, Heap=1.31661 s, HashTreeAvg=0.002367 s, HashListAvg=0.00319 s
+
+--- Running Benchmark for Size: 5000000 ---
+Running Radix Sort...
+Radix Sort Time: 2.1281 s
+Running Heap Sort...
+Heap Sort Time: 3.7445 s
+Summary for 5000000: Radix=2.1281 s, Heap=3.7445 s, HashTreeAvg=0.006774 s, HashListAvg=0.007109 s
+
+--- Running Benchmark for Size: 10000000 ---
+Running Radix Sort...
+Radix Sort Time: 5.97216 s
+Running Heap Sort...
+Heap Sort Time: 7.82269 s
+Summary for 10000000: Radix=5.97216 s, Heap=7.82269 s, HashTreeAvg=0.0124 s, HashListAvg=0.01292 s
+
+All benchmarks completed successfully!
+```
+*Caption: Terminal window showing the automated benchmark script executing all 10 dataset sizes and logging their respective Radix Sort, Heap Sort, and Hash Table Search timings.*
 
 ---
 

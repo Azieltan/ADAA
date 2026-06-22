@@ -1,11 +1,11 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" style="background-color: #121212; font-family: 'Outfit', 'Inter', sans-serif;">
   <!-- Grid Lines and Y-Axis ticks -->  <line x1="80" y1="440" x2="760" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="65" y="445" fill="#aaaaaa" font-size="12" text-anchor="end">0.0 ms</text>  <line x1="80" y1="362" x2="760" y2="362" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="367" fill="#aaaaaa" font-size="12" text-anchor="end">3.0 ms</text>  <line x1="80" y1="284" x2="760" y2="284" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="289" fill="#aaaaaa" font-size="12" text-anchor="end">6.0 ms</text>  <line x1="80" y1="206" x2="760" y2="206" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="211" fill="#aaaaaa" font-size="12" text-anchor="end">9.0 ms</text>  <line x1="80" y1="128" x2="760" y2="128" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="133" fill="#aaaaaa" font-size="12" text-anchor="end">12.0 ms</text>  <line x1="80" y1="50" x2="760" y2="50" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
-  <text x="65" y="55" fill="#aaaaaa" font-size="12" text-anchor="end">15.0 ms</text>  <line x1="80" y1="50" x2="80" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="367" fill="#aaaaaa" font-size="12" text-anchor="end">4.6 ms</text>  <line x1="80" y1="284" x2="760" y2="284" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="289" fill="#aaaaaa" font-size="12" text-anchor="end">9.2 ms</text>  <line x1="80" y1="206" x2="760" y2="206" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="211" fill="#aaaaaa" font-size="12" text-anchor="end">13.8 ms</text>  <line x1="80" y1="128" x2="760" y2="128" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="133" fill="#aaaaaa" font-size="12" text-anchor="end">18.4 ms</text>  <line x1="80" y1="50" x2="760" y2="50" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
+  <text x="65" y="55" fill="#aaaaaa" font-size="12" text-anchor="end">23.0 ms</text>  <line x1="80" y1="50" x2="80" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="80" y="460" fill="#aaaaaa" font-size="12" text-anchor="middle">0</text>  <line x1="216" y1="50" x2="216" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="216" y="460" fill="#aaaaaa" font-size="12" text-anchor="middle">2M</text>  <line x1="352" y1="50" x2="352" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
   <text x="352" y="460" fill="#aaaaaa" font-size="12" text-anchor="middle">4M</text>  <line x1="488" y1="50" x2="488" y2="440" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4" />
@@ -17,24 +17,24 @@
   <text x="420" y="490" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">Dataset Size (N)</text>
   <text x="25" y="245" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90 25 245)">Running Time for N Searches (ms)</text>
   <text x="400" y="30" fill="#ffffff" font-size="18" font-weight="bold" text-anchor="middle">Comparative Hashing Performance: AVL Tree vs Linked List Chains</text>  <!-- AVL Tree Avg Line (Green) -->
-  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,435.71 114,416.236 148,400.324 216,371.178 420,280.074 760,80.472" fill="none" stroke="#34A853" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,437.558260869565 114,429.690434782609 148,421.059565217391 216,400.847391304348 420,344.890869565217 760,59.224347826087" fill="none" stroke="#34A853" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
   <!-- AVL Tree Worst Line (Light Green dash) -->
-  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,435.918 114,414 148,398.582 216,371.49 420,287.068 760,122.202" fill="none" stroke="#34A853" stroke-width="2" stroke-dasharray="5,5" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,437.558260869565 114,430.097391304348 148,421.042608695652 216,401.864782608696 420,341.482608695652 760,162.031739130435" fill="none" stroke="#34A853" stroke-width="2" stroke-dasharray="5,5" stroke-linecap="round" stroke-linejoin="round" />
   
   <!-- Linked List Avg Line (Yellow) -->
-  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,436.022 114,415.092 148,400.22 216,360.83 420,281.4 760,73.4" fill="none" stroke="#FBBC05" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,437.592173913043 114,430.114347826087 148,419.92347826087 216,401.932608695652 420,340.193913043478 760,142.209565217391" fill="none" stroke="#FBBC05" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
   <!-- Linked List Worst Line (Yellow dash) -->
-  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,435.45 114,413.428 148,403.08 216,359.218 420,284.676 760,73.946" fill="none" stroke="#FBBC05" stroke-width="2" stroke-dasharray="5,5" stroke-linecap="round" stroke-linejoin="round" />  <circle cx="80.068" cy="440" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <polyline points="80.068,440 80.34,440 80.68,440 83.4,440 86.8,437.880434782609 114,429.961739130435 148,420.042173913043 216,401.813913043478 420,333.292608695652 760,165.999565217391" fill="none" stroke="#FBBC05" stroke-width="2" stroke-dasharray="5,5" stroke-linecap="round" stroke-linejoin="round" />  <circle cx="80.068" cy="440" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
   <circle cx="80.068" cy="440" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="80.34" cy="440" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
   <circle cx="80.34" cy="440" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="80.68" cy="440" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
   <circle cx="80.68" cy="440" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="83.4" cy="440" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="83.4" cy="440" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="86.8" cy="435.71" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="86.8" cy="436.022" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="114" cy="416.236" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="114" cy="415.092" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="148" cy="400.324" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="148" cy="400.22" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="216" cy="371.178" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="216" cy="360.83" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="420" cy="280.074" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="420" cy="281.4" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="760" cy="80.472" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
-  <circle cx="760" cy="73.4" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <!-- Legend -->
+  <circle cx="83.4" cy="440" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="86.8" cy="437.558260869565" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <circle cx="86.8" cy="437.592173913043" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="114" cy="429.690434782609" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <circle cx="114" cy="430.114347826087" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="148" cy="421.059565217391" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <circle cx="148" cy="419.92347826087" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="216" cy="400.847391304348" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <circle cx="216" cy="401.932608695652" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="420" cy="344.890869565217" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <circle cx="420" cy="340.193913043478" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <circle cx="760" cy="59.224347826087" r="4" fill="#34A853" stroke="#ffffff" stroke-width="1" />
+  <circle cx="760" cy="142.209565217391" r="4" fill="#FBBC05" stroke="#ffffff" stroke-width="1" />  <!-- Legend -->
   <rect x="560" y="60" width="190" height="90" rx="5" fill="#1e1e1e" stroke="#333333" stroke-width="1" />
   
   <line x1="575" y1="75" x2="595" y2="75" stroke="#34A853" stroke-width="3" />

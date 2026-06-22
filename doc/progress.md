@@ -32,6 +32,30 @@
 - **阶段十：添加标识文件** (Complete)
   - 在根目录创建了 `aziel_version_ADAA` 文件，备注 "update lecturer requirment"。
 
+- **阶段十一：插入Question 2（Radix Sort）的证据** (Complete)
+  - 根据提供的输出片段和截屏指令，在 `doc/CCP6214_Report_Template.md` 文档的 Q2 章节成功插入了 `radix_sort` 和 `radix_sort_step` 的命令运行截图（以 Markdown 代码块形式）以及数据文件 excerpts。
+  - 完成了 Q2 Evidence 清单的勾选。
+
+- **阶段十二：生成并插入Question 3（Heap Sort）的证据** (Complete)
+  - 运行了 `heap_sort.exe` 1000, 5000, 10000 数据集的基准测试并获取了耗时输出。
+  - 运行了 `heap_sort_step.exe` 并提取了输出日志片段和排序结果片段。
+  - 在 `doc/CCP6214_Report_Template.md` 模板文档的 Q3 章节成功植入了命令运行截图的 Markdown 代码块以及 excerpts，并打钩了相关的完成清单。
+
+- **阶段十三：生成并插入Question 4（Hash Table Search）的证据** (Complete)
+  - 运行了 `hash_table_search.exe` 的 AVL tree 与 Linked List 性能基准测试。
+  - 运行了 `hash_table_search_step.exe` 并提取了 Found Target 与 Not-Found Target 的搜索路径步骤。
+  - 在 `doc/CCP6214_Report_Template.md` 模板文档的 Q4 章节成功植入了命令运行截图的 Markdown 代码块以及提取了 4 份日志文件的 excerpts，打钩了所有相关清单。
+
+- **阶段十四：刷新 10 组输入规模的基准测试结果 (Q7)** (Complete)
+  - 以后台任务方式完整运行了 `run_benchmarks.ps1` 脚本，涵盖了从 1000 到 10,000,000 的所有 10 组数据集。
+  - 将生成的最新鲜的基准耗时结果提取，并成功更新到了 `CCP6214_Report_Template.md` 文档的 Q7 `10-Input-Size Results` 表格中。
+  - 完美保留了 1k, 5k, 10k 的行与之前的截图输出严格对应。
+  - 将脚本运行的完整 Terminal Output 转换为 Markdown 代码块直接插入到了 Q7 的截图区域，免除了用户手动截图 40 次的繁琐工作。
+
+- **阶段十五：根据最新基准数据刷新 SVG 图表** (Complete)
+  - 运行了 `generate_charts.ps1` 脚本。
+  - 成功根据最新的 `benchmark_results.csv` 数据重新绘制了 `sorting_benchmark.svg` 与 `hash_table_benchmark.svg` 图表。
+
 ## 历史进展 (History)
 - **2026-06-15 21:53**: 初始化进展文档与实施计划，定位系统 C++ 编译器。
 - **2026-06-15 22:04**: 完成 C++ 实现与 10 个基准测试集的测试；发起 80M 超大数据集的生成。
@@ -40,3 +64,5 @@
 - **2026-06-22 18:19**: 执行 `git pull` 同步拉取云端的最新更新。
 - **2026-06-22 18:31**: 按照 Mr Shaari 的最新指引，更新了合规清单与报告模板，使 OneDrive 提交包可选，只包含单一输入/输出作为证明。
 - **2026-06-22 18:55**: 在根目录创建了 `aziel_version_ADAA` 标识文件。
+- ?????? CPU ? RAM ??:Intel Core i5-1155G7, 16GB RAM.
+- ??? Question 2 ?????:??? Radix Sort ? excerpt ????,?????????.

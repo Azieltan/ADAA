@@ -61,6 +61,32 @@ Every student is responsible for 100% of this group assignment work and must und
 
 ---
 
+## Evidence Placement Guide
+
+Use the slots below to place screenshots, terminal captures, and file excerpts directly inside the matching section. Keep each item close to the related explanation so the marker can verify it quickly.
+
+| Evidence Item | Where to Insert | What to Include |
+|---|---|---|
+| Dataset generator screenshot | Q1, under the evidence checklist | Terminal window showing `dataset_generator.exe` running and the generated dataset filename |
+| Generated dataset excerpt | Q1, under the evidence checklist | 5 to 10 sample rows from `dataset_1000.csv` or the required sample size |
+| Radix step screenshot | Q2, under the evidence checklist | Terminal window showing `radix_sort_step.exe` and the row range used |
+| Radix full-sort screenshot | Q2, under the evidence checklist | Terminal window showing `radix_sort.exe` for each required input size |
+| Radix step output excerpt | Q2, under the evidence checklist | A visible excerpt from `dataset_1000_radix_sorted_step_1_7.txt` |
+| Radix sorted CSV excerpt | Q2, under the evidence checklist | A visible excerpt from `radix_sorted_dataset_1000.csv` |
+| Heap step screenshot | Q3, under the evidence checklist | Terminal window showing `heap_sort_step.exe` and the row range used |
+| Heap full-sort screenshot | Q3, under the evidence checklist | Terminal window showing `heap_sort.exe` for each required input size |
+| Heap step output excerpt | Q3, under the evidence checklist | A visible excerpt from `dataset_1000_heap_sorted_step_1_7.txt` |
+| Heap sorted CSV excerpt | Q3, under the evidence checklist | A visible excerpt from `heap_sort_dataset_1000.csv` |
+| Hash benchmark screenshots | Q4, under the evidence checklist | Tree benchmark, list benchmark, found-target step, and not-found-target step |
+| Hash output excerpts | Q4, under the evidence checklist | Visible excerpts from the generated `.txt` output files |
+| Hardware screenshots | Q6, in the hardware table | One screenshot per member showing CPU and RAM details |
+| Runtime screenshots | Q7, below the timing tables | Terminal screenshots for every dataset size and algorithm run |
+| OneDrive link | Cover page and Appendix A | Link to large input/output files if they are not inside the zip |
+
+For each screenshot, add a short caption directly underneath it that states the program name, dataset size, and what the screenshot proves.
+
+---
+
 ## Source Code Header Required in Each Source File
 
 ```cpp
@@ -134,6 +160,10 @@ Dataset generation is expected `O(N)` time for `N` records, assuming low collisi
 - [ ] Screenshot or excerpt of generated `dataset_1000.csv`.
 - [ ] OneDrive link if generated CSV files are too large for the zip submission.
 
+Insert the screenshots and dataset excerpt directly below this checklist.
+
+Place 1 screenshot of the generator run, followed by 1 small data excerpt from the generated CSV.
+
 ---
 
 ## Q2 [5] Radix Sort from Rightmost Character
@@ -200,6 +230,10 @@ The extra space is required for the counting sort output buffer and digit counts
 - [ ] Excerpt of `dataset_1000_radix_sorted_step_1_7.txt`.
 - [ ] Excerpt of `radix_sorted_dataset_1000.csv`.
 
+Insert the screenshots and file excerpts directly below this checklist.
+
+Use separate captions for the step output and the full-sort output.
+
 ---
 
 ## Q3 [5] Heap Sort Using Max Heap
@@ -263,6 +297,10 @@ Heap sort is in-place apart from small constant variables.
 - [ ] Screenshot of `heap_sort.exe` running for each input size.
 - [ ] Excerpt of `dataset_1000_heap_sorted_step_1_7.txt`.
 - [ ] Excerpt of `heap_sort_dataset_1000.csv`.
+
+Insert the screenshots and file excerpts directly below this checklist.
+
+Use separate captions for the step output and the full-sort output.
 
 ---
 
@@ -347,6 +385,10 @@ Space:        O(N)
 - [ ] Screenshot of not-found-target step output.
 - [ ] Excerpts from the generated `.txt` output files.
 
+Insert the four screenshots directly below this checklist, then place the `.txt` excerpts after them.
+
+Label each screenshot with the dataset size, search mode, and whether it is best, average, or worst case.
+
 ---
 
 ## Q5 [5] Conclusion and AVL Comparison
@@ -409,10 +451,10 @@ Insert screenshots here:
 
 | Member | Hardware Screenshot |
 |---|---|
-| [Student Name 1] | [Insert screenshot] |
-| [Student Name 2] | [Insert screenshot] |
-| [Student Name 3] | [Insert screenshot] |
-| [Student Name 4] | [Insert screenshot] |
+| [Student Name 1] | [Insert screenshot showing CPU and RAM details] |
+| [Student Name 2] | [Insert screenshot showing CPU and RAM details] |
+| [Student Name 3] | [Insert screenshot showing CPU and RAM details] |
+| [Student Name 4] | [Insert screenshot showing CPU and RAM details] |
 
 ---
 
@@ -459,6 +501,14 @@ Insert or embed these chart files:
 ### Running-Time Screenshots
 
 Insert command prompt screenshots for each input size and algorithm run here.
+
+Recommended order:
+
+1. `dataset_1000` through `dataset_10000000` benchmark screenshots.
+2. `radix_sort.exe` and `heap_sort.exe` screenshots for each size.
+3. `hash_table_search.exe` screenshots for tree and list modes for each size.
+
+Add a short caption under each screenshot naming the program, dataset size, and timing result.
 
 ---
 
@@ -521,6 +571,8 @@ Knuth, D. E. (1998). *The art of computer programming: Sorting and searching* (2
 - [ ] Runtime screenshots.
 - [ ] Hardware screenshots.
 - [ ] Final zip named `T13L_G04.zip`.
+
+Place the completed DOCX and evidence files in the final submission package, or provide the OneDrive link in the cover page and Appendix A if large files are excluded from the zip.
 
 ---
 

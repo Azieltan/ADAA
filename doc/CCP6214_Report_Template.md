@@ -18,10 +18,10 @@
 
 | No. | Student ID | Student Name and Phone Number | Task Percentage | Task Descriptions |
 |---:|---|---|---:|---|
-| 1 | [Student ID 1] | [Student Name 1] [Phone] (Leader) | 100% | Dataset generator, benchmark execution, evidence collection, final verification |
-| 2 | [Student ID 2] | [Student Name 2] [Phone] | 100% | Radix sort implementation, radix step output, sorting analysis, demo explanation |
-| 3 | [Student ID 3] | [Student Name 3] [Phone] | 100% | Heap sort implementation, heap step output, complexity analysis, demo explanation |
-| 4 | [Student ID 4] | [Student Name 4] [Phone] | 100% | Hash table search implementation, benchmark verification, AVL/list comparison, APA references |
+| 1 | 261UC240LY | Aziel Tan Zheng Chuan | 100% | Dataset generator, benchmark execution, evidence collection, final verification |
+| 2 | 261UC240PJ | See Wing Kit | 100% | Radix sort implementation, radix step output, sorting analysis, demo explanation |
+| 3 | 261UC26145 | Soo Kian Rong | 100% | Heap sort implementation, heap step output, complexity analysis, demo explanation |
+| 4 | 261UC2406W | Vincent Lock Chun Kit | 100% | Hash table search implementation, benchmark verification, AVL/list comparison, APA references |
 
 Every student is responsible for 100% of this group assignment work and must understand all submitted answers.
 

@@ -4,16 +4,16 @@
 // Lecture Class: TC5L
 // Tutorial Class: T20L
 // Trimester: 2610
-// Member_1: ID | VINCENT LOCK CHUN KIT | VINCENT.LOCK.CHUN1@STUDENT.MMU.EDU.MY | 0182771488
-// Member_2: ID | AZIEL TAN ZHENG CHUAN | AZIEL.TAN.ZHENG1.STUDENT.MMU.EDU.MY | PHONE
-// Member_3: ID | SEE WING KIT | SEE.WING.KIT1.STUDENT.MMU.EDU.MY | PHONE
-// Member_4: ID | SOO KIAN RONG | SOO.KIAN.RONG1.STUDENT.MMU.EDU.MY | PHONE
+// Member_1: 261UC240LY | Aziel Tan Zheng Chuan | AZIEL.TAN.ZHENG1.STUDENT.MMU.EDU.MY | PHONE
+// Member_2: 261UC240PJ | See Wing Kit | SEE.WING.KIT1.STUDENT.MMU.EDU.MY | PHONE
+// Member_3: 261UC26145 | Soo Kian Rong | SOO.KIAN.RONG1.STUDENT.MMU.EDU.MY | PHONE
+// Member_4: 261UC2406W | Vincent Lock Chun Kit | VINCENT.LOCK.CHUN1@STUDENT.MMU.EDU.MY | PHONE
 // *********************************************************
 // Task Distribution
-// VINCENT LOCK CHUN KIT: Dataset generator, AVL tree implementation, benchmark orchestration, evidence collection
-// AZIEL TAN ZHENG CHUAN: Radix sort implementation and charts, report writing (sorting sections)
-// SEE WING KIT: Heap sort implementation and step outputs, script portability fixes, testing and verification
-// SOO KIAN RONG: Hash table (linked-list and AVL) implementation, search benchmarks, APA citations
+// Aziel Tan Zheng Chuan: Dataset generator, benchmark execution, evidence collection, final verification
+// See Wing Kit: Radix sort implementation, radix step output, sorting analysis, demo explanation
+// Soo Kian Rong: Heap sort implementation, heap step output, complexity analysis, demo explanation
+// Vincent Lock Chun Kit: Hash table search implementation, benchmark verification, AVL/list comparison, APA references
 // *********************************************************
 
 #include "common.h"

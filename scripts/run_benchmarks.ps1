@@ -2,11 +2,13 @@
 $ErrorActionPreference = "Stop"
 $env:PATH = "C:\Program Files\GNU Octave\Octave-11.1.0\mingw64\bin;" + $env:PATH
 
-$Workspace = "c:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS"
+$Workspace = Split-Path -Parent $PSScriptRoot
 $Compiler = "C:\Program Files\GNU Octave\Octave-11.1.0\mingw64\bin\g++.exe"
 $SrcDir = "$Workspace\src"
 $BinDir = "$Workspace\bin"
 $DocDir = "$Workspace\doc"
+
+Set-Location $Workspace
 
 # Ensure directories exist
 if (!(Test-Path $BinDir)) { New-Item -ItemType Directory -Path $BinDir | Out-Null }

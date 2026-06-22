@@ -453,8 +453,8 @@ Insert screenshots here:
 
 Insert or embed these chart files:
 
-- `doc/sorting_benchmark.svg`
-- `doc/hash_table_benchmark.svg`
+- [doc/sorting_benchmark.svg](doc/sorting_benchmark.svg)
+- [doc/hash_table_benchmark.svg](doc/hash_table_benchmark.svg)
 
 ### Running-Time Screenshots
 

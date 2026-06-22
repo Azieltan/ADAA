@@ -96,8 +96,8 @@ Below is the compiled timing data from the experiment runs:
 ### 3.3 Performance Graphs
 *(Double-click or open these files in your web browser to view them in interactive high-resolution)*
 
-1. **Sorting Comparison**: [sorting_benchmark.svg](file:///c:/Users/aziel/OneDrive/Desktop/ALGORITHM%20DESIGN%20AND%20ANALYSIS/doc/sorting_benchmark.svg)
-2. **Hashing Comparison**: [hash_table_benchmark.svg](file:///c:/Users/aziel/OneDrive/Desktop/ALGORITHM%20DESIGN%20AND%20ANALYSIS/doc/hash_table_benchmark.svg)
+1. **Sorting Comparison**: [sorting_benchmark.svg](doc/sorting_benchmark.svg)
+2. **Hashing Comparison**: [hash_table_benchmark.svg](doc/hash_table_benchmark.svg)
 
 ---
 

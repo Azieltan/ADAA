@@ -4,7 +4,7 @@ import time
 import sys
 
 # Paths
-WORKSPACE = r"c:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS"
+WORKSPACE = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 COMPILER = r"C:\Program Files\GNU Octave\Octave-11.1.0\mingw64\bin\g++.exe"
 SRC_DIR = os.path.join(WORKSPACE, "src")
 BIN_DIR = os.path.join(WORKSPACE, "bin")

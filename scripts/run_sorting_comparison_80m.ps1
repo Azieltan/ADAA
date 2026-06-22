@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 $env:PATH = "C:\Program Files\GNU Octave\Octave-11.1.0\mingw64\bin;" + $env:PATH
 
-$Workspace = "c:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS"
+$Workspace = Split-Path -Parent $PSScriptRoot
 $BinDir = "$Workspace\bin"
 $DocDir = "$Workspace\doc"
 $CsvFile = "$Workspace\dataset_80000000.csv"

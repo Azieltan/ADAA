@@ -1,7 +1,7 @@
 # PowerShell script to generate beautiful SVG charts from benchmark_results.csv
 $ErrorActionPreference = "Stop"
 
-$Workspace = "c:\Users\aziel\OneDrive\Desktop\ALGORITHM DESIGN AND ANALYSIS"
+$Workspace = Split-Path -Parent $PSScriptRoot
 $DocDir = "$Workspace\doc"
 $CsvPath = "$DocDir\benchmark_results.csv"
 
